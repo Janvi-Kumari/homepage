@@ -1,0 +1,418 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    margin: 40px;
+}
+
+.container {
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 1200px;
+    height: 2365px;
+}
+
+
+/* navigation */
+
+.navbar {
+    margin: 30px
+}
+
+.navbar ul li:first-child {
+    margin-right: 340px;
+    margin-left: 180px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* content */
+
+.content {
+    margin: 80px;
+}
+
+.heading {
+    font-size: 30px;
+    margin-left: 125px;
+    font-weight: 600;
+
+}
+
+.text {
+    width: 520px;
+    margin: 20px;
+    margin-left: 125px;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+
+.blue {
+    color: blue;
+    margin: 2px;
+}
+
+.picture {
+    margin-left: 570px;
+    margin-top: -170px;
+}
+
+.last-text {
+    margin-left: 80px;
+    margin-top: -60px;
+}
+
+.t1 {
+    color: #1EA1F1;
+    margin-right: 60px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.t2 {
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+.t3 {
+    color: #6B46C1;
+    font-size: 16px;
+}
+
+.img {
+    margin-left: 10px;
+}
+
+
+
+
+/* courses */
+.courses {
+    margin-left: 190px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+
+.course-content1 {
+    border: 1px solid #EDF2F7;
+    width: 760px;
+    height: 160px;
+    background: #EDF2F7;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+.course-content1 ul li:nth-child(2) {
+    margin-left: 220px;
+    color: #805AD5;
+}
+
+.course-content1 ul {
+    margin-left: 130px;
+    margin-top: -100px;
+    margin-bottom: 60px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+
+.l {
+    margin-left: 130px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    color: #718096;
+}
+
+.course-text {
+    width: 600px;
+    height: 42px;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-left: 130px;
+    line-height: 21px;
+}
+
+.frame {
+    margin-left: 20px;
+    margin-top: 38px;
+
+}
+
+
+
+/* course-content2 */
+
+.course-content2 {
+    border: 1px solid #EDF2F7;
+    width: 760px;
+    height: 160px;
+    background: #EDF2F7;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.course-content2 ul li:nth-child(2) {
+    margin-left: 100px;
+    color: #805AD5;
+}
+
+.course-content2 ul {
+    margin-left: 130px;
+    margin-top: -100px;
+    margin-bottom: 15px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.course-text1 {
+    width: 600px;
+    height: 84px;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-left: 130px;
+    line-height: 21px;
+}
+
+.image6 {
+    margin-left: 20px;
+    margin-top: 38px;
+
+}
+
+
+
+
+/* blog */
+
+.blog {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.blog-heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.blog-content1 ul li:nth-child(2) {
+    margin-left: 380px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #718096;
+    line-height: 21px;
+}
+
+.blog ul {
+    /* margin-left: 20px; */
+    margin-top: 33px;
+    margin-bottom: 15px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.blog-text {
+    font-weight: 400;
+    font-size: 14px;
+    width: 770px;
+    height: 63px;
+    color: #718096;
+    margin-top: 13px;
+    line-height: 150%;
+}
+
+
+.blog-content2 ul li:nth-child(2) {
+    margin-left: 200px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #718096;
+    line-height: 21px;
+}
+
+
+
+
+.blog-content3 ul li:nth-child(2) {
+    margin-left: 90px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #718096;
+    line-height: 21px;
+}
+
+
+
+/* videos */
+
+.videos {
+    margin-top: 64px;
+    margin-left: 45px;
+
+}
+
+.videos-heading {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 32px;
+    margin-left: 5px;
+}
+
+.videos-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    width: 360px;
+    height: 38px;
+    margin-bottom: 8px;
+}
+
+.videos-text {
+    width: 360px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #718096;
+}
+
+.thumbnail {
+    margin-bottom: 16px;
+}
+
+
+.image-videos2 {
+    margin-left: 400px;
+    margin-top: -305px;
+}
+
+.image-videos3 {
+    margin-top: 32px;
+}
+
+.image-videos4 {
+    margin-left: 400px;
+    margin-top: -305px;
+}
+
+
+
+/* footer */
+
+
+.footer-border {
+    border-top: 1px solid #EDF2F7;
+    width: 720px;
+    margin-top: 64px;
+    margin-left: 245px;
+}
+
+
+.footer {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.footer ul {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    color: #718096;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+
+}
+
+.l1 {
+    width: 64px;
+    height: 129px;
+    margin-left: 170px;
+    margin-top: -40px;
+
+}
+
+.l2 {
+    width: 61px;
+    height: 129px;
+    margin-left: 480px;
+    margin-top: -130px;
+}
+
+.l3 {
+    width: 74px;
+    height: 129px;
+    margin-left: 840px;
+    margin-top: -130px;
+}
+
+.l-footer {
+    margin-left: 172px;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #718096;
+    line-height: 14px;
+}
